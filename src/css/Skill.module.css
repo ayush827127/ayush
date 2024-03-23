@@ -1,0 +1,10 @@
+.skillItemContainer{
+    justify-content: center;
+}
+
+@media  (max-width:380px) {
+    .skillItemContainer{
+        justify-content: unset;
+        margin-left: 20px;
+    }
+}

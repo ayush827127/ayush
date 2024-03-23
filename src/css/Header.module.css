@@ -1,0 +1,42 @@
+:root {
+  --primary-color: #00ffff;
+  --secondary-color: #adff2f;
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
+
+.nav_bar {
+  align-items: center;
+}
+
+.nav_bar li {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: var(--primary-color);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-bottom: 5px solid black;
+}
+.nav_bar li a {
+  color: var(--primary-color);
+}
+.nav_bar li a:hover {
+  color: var(--primary-color);
+}
+.nav_bar li:hover {
+  border-bottom: 4px solid var(--primary-color);
+}
+
+@media (max-width: 770px) {
+  .header {
+    max-width: 100%;
+  }
+  li{
+    font-size: 12px;
+  }
+}

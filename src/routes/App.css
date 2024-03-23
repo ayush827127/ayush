@@ -1,0 +1,45 @@
+:root{
+  --primary-color: #00FFFF;
+} 
+
+*{
+  background-color: black;
+  color: var(--primary-color)
+}
+
+
+#root {
+  margin: 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: cyan;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  width: 8px;
+  background: black;
+  border: 1px solid cyan;
+  border-radius: 25px;
+}
+
+
+@keyframes typing {
+  from { width: 0%; border-right: .15em solid cyan;}
+  to { width: 100%; border-right: unset;}
+}
+
+.typing-animation {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(40) ; /* Adjust the animation duration and steps as needed */
+}

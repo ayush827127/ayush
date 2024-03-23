@@ -1,0 +1,12 @@
+.contactForm {
+  border: 1.5px solid cyan;
+  padding: 10px;
+  border-radius: 15px;
+  width: 60%;
+}
+
+@media (max-width: 770px) {
+  .contactForm {
+    width: 90%;
+  }
+}

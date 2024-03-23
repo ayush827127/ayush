@@ -1,0 +1,85 @@
+:root {
+  --primary-color: #00ffff;
+  --secondary-color: #adff2f;
+}
+
+.intro h3 {
+  margin-right: 20rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+}
+.box {
+  background: url("../../public/images/Dp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position-y: -130px;
+  height: 350px;
+  width: 450px;
+  box-shadow: 0 20px 5px 15px var(--primary-color);
+  animation: animate 5s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 60%;
+  }
+}
+
+.contactBtn {
+  background-color: var(--primary-color);
+}
+.contactBtn:hover {
+  background-color: black;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+.resumeBtn {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  color: var(--primary-color);
+}
+
+.resumeBtn:hover {
+  background-color: cyan;
+  color: black;
+}
+.socialLogoContainer {
+  text-align-last: start;
+  margin-left: 60px;
+}
+
+.socialLogo {
+  width: 30px;
+  height: auto;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .socialLogoContainer {
+    justify-content: center;
+    margin-left: unset;
+  }
+}
+
+@media (max-width: 480px) {
+  .box {
+    height: 250px;
+  }
+  .wrapper {
+    height: unset;
+  }
+}

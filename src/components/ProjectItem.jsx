@@ -1,8 +1,14 @@
 import styles from "../css/ProjectItem.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS CSS
 
 function ProjectItem({data}) {
+  AOS.init({
+    offset: 190,
+    duration: 600
+  });
   return (
-    <div className="col-lg-4 col-md-6 my-3">
+    <div className="col-lg-4 col-md-6 my-3" data-aos="fade-up-right">
       <div className={`${styles.card} card`}>
         <img src={data.photo} className="card-img-top" alt="Project 1" />
         <div className="card-body">

@@ -1,8 +1,13 @@
 import React, { useState } from "react";
-import axios from "axios";
 import styles from "../css/Contact.module.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contact() {
+  AOS.init({
+    offset: 180,
+    duration: 800
+  });
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -46,9 +51,9 @@ function Contact() {
   return (
     <div className="container mt-5 mb-5" id="contact">
       <div className="row featurette " style={{ justifyContent: "center" }}>
-        <h1>Contact Us</h1>
+        <h1 data-aos="flip-right">Contact Us</h1>
         <hr className="featurette-divider " />
-        <div className={`col-md-5 order-md-2 ${styles.contactForm}`}>
+        <div className={`col-md-5 order-md-2 ${styles.contactForm}`} data-aos="zoom-in-up">
           <div className="m-1">
             <form id="contact_form" name="contact_form" onSubmit={handleSubmit}>
               <div className="mb-3  ">

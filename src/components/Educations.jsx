@@ -1,11 +1,17 @@
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS CSS
 import styles from "../css/Educations.module.css";
 
 function Educations() {
+  AOS.init({
+    offset: 190,
+    duration: 1400,
+  });
   return (
     <div className="container mt-3" id="education">
       <div className={` ${styles.row} row mb-4 `}>
-        <h2 className="pb-2 border-bottom mb-5">Educations</h2>
-        <div className={`${styles.eduBox} col-lg-4 col-md-6 my-4`}>
+        <h2 className="pb-2 border-bottom mb-5" data-aos="flip-left" >Educations</h2>
+        <div className={`${styles.eduBox} col-lg-4 col-md-6 my-4`} data-aos="fade-right" >
           <div className={` ${styles.card} card`}>
             <div className={` ${styles.cardBody} card-body`}>
               <h5 className={` ${styles.cardTitle} card-title my-3`}>
@@ -21,7 +27,7 @@ function Educations() {
             </div>
           </div>
         </div>
-        <div className={`${styles.eduBox} col-lg-4 col-md-6 my-4`}>
+        <div className={`${styles.eduBox} col-lg-4 col-md-6 my-4`} data-aos="fade-up">
           <div className={` ${styles.card} card`}>
             <div className={` ${styles.cardBody} card-body`}>
               <h5 className={` ${styles.cardTitle} card-title my-3`}>
@@ -37,7 +43,7 @@ function Educations() {
             </div>
           </div>
         </div>
-        <div className={`${styles.eduBox} col-lg-4 col-md-6 my-4`}>
+        <div className={`${styles.eduBox} col-lg-4 col-md-6 my-4`} data-aos="fade-left">
           <div className={` ${styles.card} card`}>
             <div className={` ${styles.cardBody} card-body`}>
               <h5 className={` ${styles.cardTitle} card-title my-3`}>

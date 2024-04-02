@@ -1,11 +1,17 @@
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS CSS
 import { data } from "../Data/projectData";
 import ProjectItem from "./ProjectItem";
 
 function Projects() {
+  AOS.init({
+    offset: 190,
+    duration: 400
+  });
   return (
     <>
-      <div className="container" id="project">
-        <h1 className="mt-5 mb-3">Projects</h1>
+      <div className="container" id="project" data-aos="slide-up">
+        <h1 className="mt-5 mb-3" >Projects</h1>
         <hr style={{color: "cyan", height: "2px", backgroundColor: "cyan" }}/>
         <div className="row">
           {data.map((item) => (

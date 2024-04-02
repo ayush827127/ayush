@@ -10,8 +10,8 @@ function Projects() {
   });
   return (
     <>
-      <div className="container" id="project" data-aos="slide-up">
-        <h1 className="mt-5 mb-3" >Projects</h1>
+      <div className="container" id="project" >
+        <h1 className="mt-5 mb-3" data-aos="fade-up" >Projects</h1>
         <hr style={{color: "cyan", height: "2px", backgroundColor: "cyan" }}/>
         <div className="row">
           {data.map((item) => (

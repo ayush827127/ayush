@@ -1,5 +1,13 @@
 export const data = [
   {
+    0: {
+      name: "FullStack Food Delivery App",
+      photo: "https://ibb.co/2nYpGDT",
+      info: "This app developed on mern and have login signup authentication using firebase",
+      project_link: "https://foodie-app-alpha.vercel.app/"
+    },
+  },
+  {
     1: {
       name: "Voice-Text-Coverter",
       photo: "https://ayush827127.github.io/ayushgupta/TextVoiceConverter.png",

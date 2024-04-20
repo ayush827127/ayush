@@ -1,9 +1,10 @@
+import foodApp from "../../public/images/foodDeliveryProject.png"
 export const data = [
   {
     0: {
       name: "FullStack Food Delivery App",
-      photo: "https://ibb.co/2nYpGDT",
-      info: "This app developed on mern and have login signup authentication using firebase",
+      photo: foodApp,
+      info: "This food delivery app, developed on MERN, features Firebase authentication for login/signup, offering a seamless experience for users.",
       project_link: "https://foodie-app-alpha.vercel.app/"
     },
   },

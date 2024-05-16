@@ -1,19 +1,20 @@
-import foodApp from "../../public/images/foodDeliveryProject.png"
+import foodApp from "../../public/images/foodDeliveryProject.png";
 export const data = [
   {
     0: {
       name: "FullStack Food Delivery App",
       photo: foodApp,
       info: "This food delivery app, developed on MERN, features Firebase authentication for login/signup, offering a seamless experience for users.",
-      project_link: "https://foodie-app-alpha.vercel.app/"
+      project_link: "https://foodie-app-alpha.vercel.app/",
     },
   },
   {
     1: {
-      name: "Voice-Text-Coverter",
-      photo: "https://ayush827127.github.io/ayushgupta/TextVoiceConverter.png",
-      info: "This app can convert voice into text and text into voice and support many languages.",
-      project_link: "https://ayush827127.github.io/VoiceAndTextInterconvertable/"
+      name: "Home Service App",
+      photo:
+        "https://poly-screenshots.wellfound.com/Project/f5/1465162/9c0b4935d23674ef87b9ac3699ad085d-original.png",
+      info: "Built with Next.js, this platform simplifies booking home services for specific dates, streamlining maintenance and repairs.",
+      project_link: "https://home-service-seven.vercel.app/",
     },
   },
   {
@@ -46,14 +47,14 @@ export const data = [
       photo: "https://ayush827127.github.io/ayushgupta/KeyboardGesture.png",
       info: "This project showcases a groundbreaking approach to game control – using hand gestures to navigate and interact within the gaming world.",
       project_link: "https://github.com/ayush827127/KeyboardGesture",
-     },
+    },
   },
   {
     6: {
       name: "Tour-Management-System",
       photo: "https://ayush827127.github.io/ayushgupta/project_pic_1.png",
       info: "Trip management where user can book the ticket and the data would saved in mysql database..",
-      project_link: "https://github.com/ayush827127/Tour-Management-System."
+      project_link: "https://github.com/ayush827127/Tour-Management-System.",
     },
   },
 ];

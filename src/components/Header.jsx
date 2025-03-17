@@ -19,9 +19,9 @@ function Header() {
       <div className={`container ${styles.header}`} id="header">
         <header className={`d-flex flex-wrap justify-content-between align-items-center mb-4 border-bottom ${styles.headerBox}`}>
           <a href="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <img src="https://static.vecteezy.com/system/resources/thumbnails/004/820/665/small/success-education-people-with-arrow-up-and-star-free-vector.jpg"
+            <img src="../../public/images/Dp.jpg"
              alt="Logo" width="40" height="32" className={`${styles.logo}`} />
-            <span className="fs-4 px-3">PortFolio</span>
+            {/* <span className="fs-4 px-3"></span> */}
           </a>
 
           <button className={`btn btn-link d-md-none ${styles.menuButton}`} onClick={toggleMenu}>

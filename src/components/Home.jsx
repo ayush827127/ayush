@@ -29,7 +29,7 @@ function Home() {
                 Contact
               </button>
             </a>
-            <a href="https://drive.google.com/file/d/10SSs9Lzio62rnM-3p0jh315yH3NHaD7t/view?usp=drivesdk">
+            <a href="https://drive.google.com/file/d/1b5Kfy5Q5lNjjTqQRh3ZjXn8ftzyqtWtX/view?usp=sharing">
               <button
                 type="button"
                 className={`btn btn-outline-secondary btn-lg px-4 mx-3 mt-4 ${styles.resumeBtn} `}
